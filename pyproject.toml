@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "exploratory-model-analysis"
+version = "0.1.0"
+description = "A brief overview of how to use Exploratory Model Analysis."
+authors = ["josiah-d <duhaimejosiah@gmail.com>"]
+readme = "README.md"
+packages = [{include = "exploratory_model_analysis"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+pycaret = "^3.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

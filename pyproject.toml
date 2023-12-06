@@ -8,11 +8,10 @@ packages = [{include = "exploratory_model_analysis"}]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.12"
-pycaret = "^3.2.0"
+pycaret = {extras = ["analysis"], version = "^3.2.0"}
 kaleido = "0.2.1"
 jupyterlab = "^4.0.9"
 ipyflow = "^0.0.190"
-
 
 [build-system]
 requires = ["poetry-core"]
